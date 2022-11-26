@@ -1,4 +1,4 @@
-let countryStatesNCapital = {
+{
     "Afghanistan": {
         "states": [
             "Badakhshan",
@@ -4418,12 +4418,5 @@ let countryStatesNCapital = {
             "Midlands"
         ],
         "capital": "Harare"
-    }
-}
-
-export function getCityNState(country){
-    return {
-        city: countryStatesNCapital[country].capital,
-        state: countryStatesNCapital[country].states[Math.floor(Math.random()*countryStatesNCapital[country].states.length)]
     }
 }
